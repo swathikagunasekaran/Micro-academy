@@ -2,8 +2,8 @@ import { useState } from 'react';
 import { ChevronDown, Menu, X } from 'lucide-react';
 import { motion, AnimatePresence } from 'framer-motion';
 import { useTheme } from '../hooks/useTheme';
-import logo from '../assets/Logo.png';
-import iso from '../assets/iso.png';
+import logo from "@/assets/logo.png";
+import iso from "@/assets/iso.png";
 
 type MenuItem = {
   label: string;
